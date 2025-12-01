@@ -15,7 +15,7 @@ module load intel-mpi/2019.10.317-wqrwez3
 module load hdf5/1.10.7-rphji2e
 module load hypre/2.23.0-vldmtv6
 
----
+```
 
 Configure Intel MPI runtime:
 

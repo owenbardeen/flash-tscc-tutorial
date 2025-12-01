@@ -1,0 +1,9 @@
+nav:
+  - title: Tutorials
+    url: /
+    children:
+      - title: "Environment"
+        url: /environment
+      - title: "Building"
+        url: /building
+      # Add all your tutorial pages here

@@ -11,3 +11,12 @@ just_the_docs:
     tutorials:
       name: Tutorials
       nav_order: 1
+
+
+nav:
+  - Home: tutorials/index.md
+  - Installing Dependencies: tutorials/installing-dependencies.md
+  - Compiling FLASH: tutorials/compiling-flash.md
+  - Running Interactive Jobs: tutorials/running-interactive.md
+  - Batch Jobs: tutorials/batch-jobs.md
+  - Troubleshooting: tutorials/troubleshooting.md

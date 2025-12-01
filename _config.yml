@@ -1,0 +1,11 @@
+title: FLASH on TSCC Tutorial
+description: Step-by-step guide for building and running FLASH 4.7.1 on SDSC TSCC
+theme: just-the-docs
+url: "https://YOUR_USERNAME.github.io/flash-tscc-tutorial"
+
+# Sidebar navigation
+just_the_docs:
+  collections:
+    tutorials:
+      name: Tutorials
+      nav_order: 1

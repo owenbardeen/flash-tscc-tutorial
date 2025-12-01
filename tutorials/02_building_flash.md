@@ -17,8 +17,10 @@ cd object
 Copy your site configuration:
 
 ```bash
-cp ../sites/tscc/Makefile.h .
+cp ../sites/tscc/Makefile.h ../
 ```
+
+If the Makefile is not there, see the Makefile section for mine, and copy it into the "FLASH4.7.1" folder.
 
 Get on an interactive session before compiling FLASH.
 

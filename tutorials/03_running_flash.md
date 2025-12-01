@@ -26,3 +26,20 @@ Run FLASH (example 4 ranks):
 
 ```bash
 srun -n 8 --overlap ./flash4
+
+If nothing happens when you run srun
+
+Check you are on a compute node:
+```bash
+hostname
+echo $SLURM_JOB_ID
+
+Check srun exists:
+
+```bash
+command -v srun
+
+If missing:
+
+```bash
+export PATH=/cm/shared/apps/slurm/current/bin:$PATH

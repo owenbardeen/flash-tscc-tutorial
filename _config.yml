@@ -1,6 +1,8 @@
 title: FLASH on TSCC Tutorial
 description: Step-by-step guide for building and running FLASH 4.7.1 on SDSC TSCC
 remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 url: "https://owenbardeen.github.io/flash-tscc-tutorial"
 
 # Sidebar navigation

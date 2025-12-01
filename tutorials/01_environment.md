@@ -1,7 +1,9 @@
 ---
-title: Environment Setup
-parent: Tutorials
+layout: default
+title: Installation
 nav_order: 1
+parent: Tutorials
+permalink: /installation
 ---
 
 # Environment Setup (TSCC)

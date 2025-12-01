@@ -31,7 +31,7 @@ Run FLASH (example 4 ranks):
 srun -n 8 --overlap ./flash4
 ```
 
-If nothing happens when you run srun
+## If nothing happens when you run srun
 
 Check you are on a compute node:
 ```bash

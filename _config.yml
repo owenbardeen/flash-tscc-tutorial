@@ -1,14 +1,43 @@
+# Site settings
 title: FLASH on TSCC Tutorial
 description: Step-by-step guide for building and running FLASH 4.7.1 on SDSC TSCC
+url: "https://owenbardeen.github.io/flash-tscc-tutorial"
+baseurl: ""  # leave empty if publishing to user.github.io/repo
+
+# Theme
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-url: "https://owenbardeen.github.io/flash-tscc-tutorial"
+  - jekyll-feed    # optional if you want an RSS feed
+  - jekyll-sitemap # optional if you want a sitemap
 
-# Sidebar navigation
+# Collections
+collections:
+  tutorials:
+    output: true       # generate HTML for each tutorial
+    permalink: /tutorials/:title/  # URL pattern
+
+# Just the Docs settings
 just_the_docs:
   collections:
     tutorials:
+      output: true
       name: Tutorials
       nav_order: 1
 
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+theme_mode: light
+
+# Exclude files/folders from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+# Optional: include static files
+include:
+  - _tutorials
